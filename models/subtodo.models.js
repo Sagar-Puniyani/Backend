@@ -11,7 +11,7 @@ const SubTodoSchema = new moongoose.Schema({
     },
     createdby : {
         type: moongoose.Schema.Types.ObjectId,
-        
+        ref : "User"
     }
 },
 {
