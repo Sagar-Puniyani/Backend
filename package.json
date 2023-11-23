@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Starter Data modeling for the project ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Data",
+    "model"
+  ],
+  "author": "Sagar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moongose": "^1.0.0"
+  }
+}
