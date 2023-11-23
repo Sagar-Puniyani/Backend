@@ -10,7 +10,7 @@ const SubTodoSchema = new moongoose.Schema({
         default : false
     },
     createdby : {
-        type: mongoose.Schema.Types.ObjectId,
+        type: moongoose.Schema.Types.ObjectId,
         
     }
 },
